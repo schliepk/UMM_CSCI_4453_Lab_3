@@ -16,7 +16,7 @@
      - [Attributes and Functional Dependence](#attributes-and-functional-dependence)
      - [A Dash of Dependency](#a-dash-of-dependency)
      - [A Clutch of Keys](#a-clutch-of-keys)
-     - [Prime and Non-Prime Attributes](#prime-an-non-prime-attributes)
+     - [Prime and Non-Prime Attributes](#prime-and-non-prime-attributes)
    - [Normal Forms](#normal-forms)
      - [First Normal Form](#first-normal-form)
      - [Second Normal Form](#second-normal-form)
