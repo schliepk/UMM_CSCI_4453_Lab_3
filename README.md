@@ -3,27 +3,27 @@
 ## Table of contents
 
 ## Outline
-   - [Overview][#overview]
-   - [More Exercises][#a-more-in-depth-set-of-exercises]
-     - [Creating some tables][#some-simple-tables]
-     - [Quick Check][#quick-check]
-   - [Anomalies][#anomalies]
-     - [Modification Anomaly][#modifcation-anomaly]
-     - [Deletion Anomaly][#deletion-anomaly]
-     - [Insertion Anomaly][#insertion-anomaly]
-     - [Anomaly Exercise]#[anomaly-exercise]
-   - [Data Normalization][#data-normalization]
-     -[Attributes and Functional Dependence][#attributes-and-functional-dependence]
-     -[A Dash of Dependency][#a-dash-of-dependency]
-     -[A Clutch of Keys][#a-clutch-of-keys]
-     -[Prime and Non-Prime Attributes][#prime-an-non-prime-attributes]
-   - [Normal Forms][#normal-forms]
-     -[First Normal Form][#first-normal-form]
-     -[Second Normal Form][#second-normal-form]
-     -[Third Normal Form][#third-normal-form]
-     -[Boyce Codd Normal Form][boyce-codd-normal-form]
-     -[Summary][]
-   - [Checklist][#checklist]
+   - [Overview](#overview)
+   - [More Exercises](#a-more-in-depth-set-of-exercises)
+     - [Creating some tables](#some-simple-tables)
+     - [Quick Check](#quick-check)
+   - [Anomalies](#anomalies)
+     - [Modification Anomaly](#modifcation-anomaly)
+     - [Deletion Anomaly](#deletion-anomaly)
+     - [Insertion Anomaly](#insertion-anomaly)
+     - [Anomaly Exercise]#[anomaly-exercise)
+   - [Data Normalization](#data-normalization)
+     -[Attributes and Functional Dependence](#attributes-and-functional-dependence)
+     -[A Dash of Dependency](#a-dash-of-dependency)
+     -[A Clutch of Keys](#a-clutch-of-keys)
+     -[Prime and Non-Prime Attributes](#prime-an-non-prime-attributes)
+   - [Normal Forms](#normal-forms)
+     -[First Normal Form](#first-normal-form)
+     -[Second Normal Form](#second-normal-form)
+     -[Third Normal Form](#third-normal-form)
+     -[Boyce Codd Normal Form][boyce-codd-normal-form)
+     -[Summary](#summary)
+   - [Checklist](#checklist)
    
 
 ## Overview
