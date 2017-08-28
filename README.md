@@ -17,13 +17,13 @@
      - [A Dash of Dependency](#a-dash-of-dependency)
      - [A Clutch of Keys](#a-clutch-of-keys)
      - [Prime and Non-Prime Attributes](#prime-and-non-prime-attributes)
-   - [Normal Forms](#normal-forms)
+   - [The Normal Forms](#the-normal-forms)
      - [First Normal Form](#first-normal-form)
      - [Second Normal Form](#second-normal-form)
      - [Third Normal Form](#third-normal-form)
-     - [Boyce Codd Normal Form][boyce-codd-normal-form)
-     - [Summary](#summary)
-   - [Checklist](#checklist)
+     - [Boyce Codd Normal Form](#boyce-codd-normal-form)
+     - [Summary](#summary-of-normal-forms)
+   - [Checklist](#checklist-of-what-to-do)
    
 
 ## Overview
@@ -504,14 +504,15 @@ Let's break that down:
 
 ## Checklist of what to do
 
-* Indicate your group name, members in a file named `group.txt` that gets uploaded with your repository
-* Create about a page's worth of speculation on a point of sales system in a file named `speculations.txt`
-* Do the required checks (not turned in)
-* Do the Anomaly Exercises (one per group-- indicate WHO has the answers)
-* Each group should create their own table with the following properties:
-    * In first normal form, but not second normal form
-    * In second normal form, but not in third normal form
-    * In third normal form, but not in BNC form
+- [] Indicate your group name, members in a file named `group.txt` that gets uploaded with your repository
+- [] Create about a page's worth of speculation on a point of sales system in a file named `speculations.txt`
+- [] Do the required checks (not turned in)
+- [] Do the Anomaly Exercises (one per group-- indicate WHO has the answers)
+- [] Each group should create their own table with the following properties:
+    - [] In first normal form, but not second normal form
+    - [] In second normal form, but not in third normal form
+    - [] In third normal form, but not in BNC form
+- [] Type in all (or most) of the examples in this lab
 
 
 [1] SQA's _Fundamentals of Database Design_ and _Elmasri and Navathe_  
