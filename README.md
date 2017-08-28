@@ -115,9 +115,9 @@ uid |  comboName         |   item   | price  | comboCode
 	
 Okay… NOW build that table but give it a name like `poorDesign`.  Add the 5 records indicated above, but use id's from your own inventory table (we will fix things soon… or more accurately *you* will).
 
-### Quick check (you are not turning this in... but you still need to do it)
+### Quick Check 
 
-Before we put things in order, let's check your understanding of last classes material:
+You are not turning this in... but you still need to do it.  Before we put things in order, let's check your understanding of last classes material:
 
 Construct a query that links together data from the `poorDesign` table, and from your `inventory` table in order to provide the following information:
 * comboName, 
