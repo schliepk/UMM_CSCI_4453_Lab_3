@@ -28,7 +28,7 @@
 
 ## Overview
 
-In today's lab we are going to get to know more about the `SELECT` statement and a bit about Database Design Theory.  At this point you should be able to do `SELECT`s that involve multiple tables and join them together with a `WHERE` clause, or explicitly with a `LEFT` or `RIGHT JOIN`.   You should also be able to do some nontrivial filtering involving the `WHERE` clause.  At the moment you have a toy version of the inventory table and a toy version of the prices table.  Today's lab will require SEVERAL tables and mucking about... so you only need **ONE copy per group**.  You will have to be sure to tell me where to look for your data, and who is in your group, so make a note in [[lab 3 group wiki|groups]].
+In today's lab we are going to get to know more about the `SELECT` statement and a bit about Database Design Theory.  At this point you should be able to do `SELECT`s that involve multiple tables and join them together with a `WHERE` clause, or explicitly with a `LEFT` or `RIGHT JOIN`.   You should also be able to do some nontrivial filtering involving the `WHERE` clause.  At the moment you have a toy version of the inventory table and a toy version of the prices table.  Today's lab will require SEVERAL tables and mucking about... so you only need **ONE copy per group**.  You will have to be sure to tell me where to look for your data, and who is in your group, so submit that information in canvas (be sure your repository has all the necessary files too).
 
 You are going to be making a few tables to play with, so just in case you make a few mistakes and don't want to `DROP` the table and start over, read this before continuing:
 
