@@ -175,11 +175,11 @@ S30        | 9322      | Richards     | Manchester | Maths
 
 Notice that the student `Jones` appears in two rows.  If we updated his address in one row, but not both, then that would be a modification anomaly.  As previously mentioned, this is also called this an **update anomaly** by some authors.
 
-#### Deletion Anomaly
+### Deletion Anomaly
 
 Assuming this table is our only source of information, then if student `S30` drops out we no longer have a record of the 'Computing' or 'Maths' course.  The ability to list the courses being offered should not depend upon a how many students are enrolled in the class.
 
-#### Insertion Anomalies
+### Insertion Anomalies
 
 We will look at two insertion anomalies.  The first is related to the deletion anomaly:  Suppose you want to introduce a course in 'Quantum', but nobody is enrolled in the class yet.  The only way to do it requires using a NULL value to (essentially) leave some attributes blank:
 
@@ -513,6 +513,7 @@ Let's break that down:
     - [ ] In second normal form, but not in third normal form
     - [ ] In third normal form, but not in BNC form
 - [ ] Type in all (or most) of the examples in this lab
+- [ ] Indicate in Canvas which database I should search for your group's answers.
 
 
 [1] SQA's _Fundamentals of Database Design_ and _Elmasri and Navathe_  
