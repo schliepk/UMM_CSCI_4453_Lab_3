@@ -215,11 +215,11 @@ In my head I say:  If I know `CourseNum` then I can deduce `Course`, or even mor
 	
 Often the relationship is not symmetric (ie, it does not go both ways)-- The attribute `CourseNum` is **not** functionally dependent upon `Course`,  because knowing the value of `Course` does not determine the value of `CourseID`.  At most universities (like our own) there are many classes with the same name, but different IDs.  Take, for example, 'Calculus I'.  Each section of the course has its own unique ID.  The fact that *some* classes are uniquely paired with their IDs doesn't matter for this definition.
 	
-The idea of functional dependence extends to **sets of attributes**.  In the table above we abbreviated address... but assuming that the attribute `Address` was actually a complete address then `StudentNum` is functionally dependent upon the pair `{Address, Student Name}`. We would write this concisely as `{Address, Student Name} -> {StudentID}`.
+The idea of functional dependence extends to **sets of attributes**.  In the table above we abbreviated address... but assuming that the attribute `Address` was actually a complete address then `StudentNum` is functionally dependent upon the pair `{Address, Student Name}`. We would write this concisely as `{Address, Student Name} -> {StudentNum}`.
 
 Depending upon the size of the university it is possible that `StudentNum` is functionally dependent upon `Student Name` and vice-versa, but honestly, it would be better to head of any future problems by assuming that `StudentNum->Student Name` and not the other way around.  However, the ultimate arbiter of functional dependency is the situation being modeled. Notice that it is also true that `StudentNum->{Student Name, Address}`.
 
-There are two important ideas to keep in mind when thinking about these issues
+There are two important ideas to keep in mind when thinking about these issues:
 
 1. When does repetition in the values of the attributes under consideration make functional dependency impossible?  This can sometimes be determined by looking at data that is going to be in the database.
 2. What does the situation being modeled have to say about any functional dependencies?
