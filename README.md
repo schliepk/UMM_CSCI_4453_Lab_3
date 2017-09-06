@@ -164,9 +164,9 @@ To make sense of these examples consider the following table:
 StudentNum | CourseNum | Student Name | Address    | Course
 -----------|-----------|--------------|------------|-------------
 S21        | 9201      | Jones        | Edinburgh  | Accounts
-S21        | 9267      | Jones        | Edinburgh  | Accounts
+S21        | 9267      | Jones        | Edinburgh  | Physics
 S24        | 9267      | Smith        | Glasgow    | Physics
-S30        | 9201      | Richards     | Manchester | Computing
+S30        | 9251      | Richards     | Manchester | Computing
 S30        | 9322      | Richards     | Manchester | Maths
 
 
