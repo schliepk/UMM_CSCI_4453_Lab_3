@@ -276,7 +276,7 @@ In the table above we have several superkeys:
 
 In fact all combinations of the 4 attributes EXCEPT `{color}` and `{animal}` by themselves will work.
 
-A **candididate key** is a superkey with no extraneous information (you can't drop an attribute and remain a superkey)  In our case there are 3:
+A **candidate key** is a superkey with no extraneous information (you can't drop an attribute and remain a superkey)  In our case there are 3:
 * `{color, animal}`, 
 * `{number}`, and 
 * `{name}`.
