@@ -15,8 +15,7 @@
    - [Data Normalization](#data-normalization)
      - [Attributes and Functional Dependence](#attributes-and-functional-dependence)
      - [A Dash of Dependency](#a-dash-of-dependency)
-     - [A Clutch of Keys](#a-clutch-of-keys)
-     - [Prime and Non-Prime Attributes](#prime-and-non-prime-attributes)
+     - [A Clutch of Keys](#a-clutch-of-keys)     - [Prime and Non-Prime Attributes](#prime-and-non-prime-attributes)
    - [The Normal Forms](#the-normal-forms)
      - [First Normal Form](#first-normal-form)
      - [Second Normal Form](#second-normal-form)
@@ -62,7 +61,7 @@ Here are a few questions to ask yourself:
 
 That's a lot to think about, and we are only going to focus on a small subset of a complete system... but it would be nice to design our subsystem carefully enough that it could be integrated into something larger without too much trouble.
 
-I would like each group to start a document (about a page long) detailing a rough outline of what you think would be necessary-- we'll flesh this out later.  Make your document link-able from [[Group Planning wiki|planning]] (a link to another Wiki page is fine-- ask if you're not sure how to it)
+I would like each group to start a document (about a page long) detailing a rough outline of what you think would be necessary-- we'll flesh this out later.  Put your document in your repository and call it `speculation.txt`. 
 
 ## A more in-depth set of exercises
 
