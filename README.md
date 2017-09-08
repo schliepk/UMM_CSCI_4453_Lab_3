@@ -504,7 +504,7 @@ Let's break that down:
 ## Checklist of what to do
 
 - [ ] Indicate your group name, members in a file named `group.txt` that gets uploaded with your repository
-- [ ] Create about a page's worth of speculation on a point of sales system in a file named `speculations.txt`
+- [ ] Create about a page's worth of speculation on a point of sales system in a file named `speculations.txt` (This should go well beyond what you turned in for `lab2.txt` and you will lose points if the depth is insufficient)
 - [ ] Do the required checks (not turned in)
 - [ ] Do the Anomaly Exercises (one per group-- indicate WHO has the answers)
 - [ ] Each group should create their own table with the following properties:
