@@ -233,7 +233,7 @@ So we probably want to split that up:
 Now consider another example that's in BCNF to begin with:
 
 | Name | Employee ID | Zip code |
-|------|----------|------|-------|
+|------|-------------|----------|
 | Nic  | 42 | 76302    |
 | Thomas | 87 | 56267 |
 | Misty | 16 | 54901 |
