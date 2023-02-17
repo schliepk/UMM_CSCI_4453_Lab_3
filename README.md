@@ -69,7 +69,8 @@ You are now going to create several tables that will help you develop a deeper u
 As this is Lab 3 don't forget to create your Lab03 schema to house your tables.
 
 Create the Schema and tables in 1 person in the groups database and then grant access to the other group members to modify tables in the Lab03 Schema.
-[Granting Access on Schema] (https://learn.microsoft.com/en-us/sql/t-sql/statements/grant-schema-permissions-transact-sql?view=sql-server-ver16)
+
+Granting Access on Schema https://learn.microsoft.com/en-us/sql/t-sql/statements/grant-schema-permissions-transact-sql?view=sql-server-ver16
 
 Let's create a table called `master` that will keep track of each transactions on a global level. You should make it with the following fields:
 
