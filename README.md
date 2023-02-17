@@ -29,9 +29,8 @@
 
 In today's lab we are going to get to know more about the `SELECT` statement and a bit about Database Design Theory.  At this point you should be able to do `SELECT`s that involve multiple tables and join them together with a `WHERE` clause, or explicitly with a `LEFT` or `RIGHT JOIN`.   You should also be able to do some nontrivial filtering involving the `WHERE` clause.
 
-At the moment each of you should have a toy version of the inventory table and a toy version of the prices table. This lab will require SEVERAL tables so we'll do it in groups, and you only need **ONE copy per group**.  You will have to be sure to tell me on Canvas where to look for your data so submit that information on Canvas along with the other necessary files (see below and the [Checklist](#checklist-of-what-to-do)). You can work in a database already created by one of your group members, or you could create a new DB for this group. Either way make sure you `GRANT` everyone in the group full privileges on that database so the whole group can work on the project equally.
 
-You are going to be making several tables to play with, so just in case you make a few mistakes and don't want to `DROP` the table and start over have a look at [the MariaDB documentation on _altering_ tables](https://mariadb.com/kb/en/library/alter-table/) before continuing. (You don't really know what an index is yet, but you will soon, so don't worry about that.)
+You are going to be making several tables to play with, so just in case you make a few mistakes and don't want to `DROP` the table and start over use the method we talked about last week where you can make a copy of the table as a backup. 
 
 As you play with the following commands think about what it would take to design a database application that would be used by a store.  Such an application would need to be able to keep track of what happens at each cash register and have a back-office function that allowed reports about sales and the current inventory.  
 
@@ -67,6 +66,8 @@ You are now going to create several tables that will help you develop a deeper u
 
 ### Some simple tables
 
+As this is Lab 3 don't forget to create your Lab03 schema to house your tables.
+
 Let's create a table called `master` that will keep track of each transactions on a global level. You should make it with the following fields:
 
 field    | data-type      | notes
@@ -75,7 +76,7 @@ start    | datetime       | to track when the interaction began
 stop     | datetime       | and to track when it was completed
 tid      | integer        | unique id for keeping track of transactions (should be the primary key in this table)
 register | integer        | numeric id of cash register where transaction occurred
-user     | text           | name of clerk who was running the till
+user     | nvarchar       | name of clerk who was running the till
 total    | decimal with two places | the total amount of money received (or refunded) in this transaction
 	
 Let call the table for keeping track of the items in a transaction `t_items`:
@@ -138,7 +139,7 @@ Double Slam	1.99	Human Kidneys
 
 I want the columns of your query to have the names `combo`, `price`, `item`.  You may find it helpful to review the usage of the keyword `AS` in the documentation on the `SELECT` statement.
 
-You really must be tired of all those `INSERT` statement by now (I know I am). You might then find [the MariaDB documentation on loading data from a file](https://mariadb.com/kb/en/library/load-data-infile/) useful. Pay special attention to the effect of the word `LOCAL`... it's the difference between your command succeeding and failing.
+You really must be tired of all those `INSERT` statement by now (I know I am). See if you can find documentation on Microsoft's SQL Server Books Online on how to import from at csv or txt file.  That could help alleviate needing to manually insert all the time.
 
 Now let's get even MORE CREATIVE.  Create a query that links information from `poorDesign`, `inventory`, and `price` to display the following information:
 
@@ -309,7 +310,7 @@ The opposite of a non-prime attributes is a **prime-attribute**.  A prime-attrib
 
 We are now ready for the icing on the cake:  A **primary key** is a candidate key that is considered to be the most-est special-est of all the candidate keys.   You get to decide what that means.  The other candidate keys can be called **alternate keys**.
 
-I *think* the idea is that the primary key seldom (if ever) gets changed.  Many databases have mechanisms for making it easy to guarantee that a table has a primary key (that's what NOT NULL AUTO_INCREMENT is for).
+I *think* the idea is that the primary key seldom (if ever) gets changed.  Many databases have mechanisms for making it easy to guarantee that a table has a primary key (that's what NOT NULL IDENTITY is for).
 
 A **partial dependency** occurs when a *non-prime* attribute is functionally dependent on part of some *candidate key*.  (We will need this definition to explain some things below).  This is a very *specific* definition.  We are not looking at the relationship between any two generic sets of attributes – we are very specifically looking at *candidate keys* and their relationship with *non-prime attributes*.
 	
